@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SHABAN ISMAIL</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script src="http://code.jquery.com/jquery-3.5.1.min.js" ></script>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="max-width">
+                <div class="logo"><a href="#">Portfo<span>lio</span></a></div>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="timetable.html">Timetable</a></li>
+                    <li><a href="itec229.html">ITEC229</a></li>
+                    <li><a href="survey.html">Survey</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="menu-btn">
+                    <i class="fas fa-bars"></i>
+
+                </div>
+            </div>
+
+        </nav>
+        
+        <section class="survey" id="survey">
+            <div class="max-width">
+                <h2 class="title-survey">Survey</h2>
+                <div class="survey-content">
+                    <table width="100%" height="100%" border = "0">
+
+                        <tr><td colspan="3"><strong>This is a survey about this website,
+                         please read carefully and follow the instructions.</strong></td></tr>
+                        
+                        <tr><td><p><strong>Please fill what is required below:</strong></p>
+                        <br><br>
+                        <form METHOD= "POST" ACTION= "">
+                        <STRONG>Name: </STRONG><INPUT TYPE = "TEXT" NAME = "NAME" SIZE="20"><BR><br>
+                        <STRONG>Surname: </STRONG><INPUT TYPE = "TEXT" NAME = "SNAME" SIZE="20"><br><br><br><br>
+                        <STRONG>Language:  </STRONG><SELECT NAME = "LANGUAGE">
+                        
+                        <OPTION>Turkish</OPTION>
+                        <OPTION>English</OPTION>
+                        <OPTION>Russian</OPTION>
+                        <OPTION>Arabic</OPTION>
+                        <OPTION>Other</OPTION></SELECT><BR><BR>
+                        <STRONG>Gender:  </STRONG><INPUT TYPE = "RADIO" NAME= "GENDER" VALUE = "M" CHECKED>Male
+                        <INPUT TYPE = "RADIO" NAME= "GENDER" VALUE = "F">Female <br><br><br><br>
+                        <STRONG>Current Email Address: </STRONG>
+                        <INPUT TYPE="TEXT" NAME = "EMAIL" SIZE = "20"> <br><br>
+                        <STRONG>Re-write Email Address: </STRONG>
+                        <INPUT TYPE="TEXT" NAME = "re-email" SIZE = "20"><br><br></td>
+                        <br><br>
+                        <td><STRONG>What do you think about the design?</STRONG><BR>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB1">Excellent<br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB2">Very good<br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB3">Good<br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB4">Poor <br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB5">Didn't notice<br></td>
+                        
+                        
+                        <td><STRONG>What do you think about the content?</STRONG><BR>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB1">Excellent<br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB2">Very good<br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB3">Good<br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB4">Poor <br>
+                        <INPUT TYPE = "CHECKBOX" NAME="opinion" VALUE ="CB5">Didn't notice<br></td></tr>
+                        
+                        <tr><td colspan="3">
+                        <table border="0" width="70%" height="70%">
+                        
+                        <tr><td></td><td>Very likely</td><td>Somewhat likely</td>
+                        <td>Somewhat unlikely</td><td>Very unlikely</td></tr>
+                        <br><br>
+                        <tr><td><strong>Revisit this site on a regular basis</strong></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "revisit" VALUE = "likely"></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "revisit" VALUE = "slikely"></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "revisit" VALUE = "sunlikely"></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "revisit" VALUE = "unlikely"></td></tr>
+                        
+                        <tr><td><strong>Recommned our site</strong></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "recommend" VALUE = "likely"></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "recommend" VALUE = "slikely"></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "recommend" VALUE = "sunlikely"></td>
+                        <td class="radio"><INPUT TYPE = "RADIO" NAME= "recommend" VALUE = "unlikely"></td></tr>
+                        </table>
+                        </td>
+                        </tr>
+                        
+                        <tr><td colspan="3"><br><br><br><STRONG>Comments</STRONG><BR>
+                        <TEXTAREA NAME = "COMMENTS" ROWS = "15" COLS = "80"></TEXTAREA><BR><br><br> 
+                        <center>
+                        <INPUT class="btn" TYPE="SUBMIT" VALUE="Submit Your Entries">
+                        <INPUT class="btn" TYPE="RESET" VALUE="Clear Your Entries">
+                        </center>
+                        </td></tr>
+                        
+                        </table>
+                        </form> 
+                </div>
+            </div>
+        </section>
+      
+        <script src="script.js"></script>
+    </body>
+</html>
